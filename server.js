@@ -28,4 +28,4 @@ http.createServer(function(request, response) {
 	        });
 		});
 	}  // if (request.url == '/') {
-}).listen(8888);
+}).listen(process.env.PORT || 8888);
